@@ -22,11 +22,8 @@ jobs:
     - name: Generate index.min.json
       run: jq -c 'map(select(.nsfw != 1))' index.min.json > index.min.json
 
-    - name: Create and checkout No-NSFW branch
-      run: git checkout -b No-NSFW
-
-    - name: Pull latest changes from remote No-NSFW branch
-      run: git pull origin No-NSFW
+    - name: Checkout No-NSFW branch
+      run: git checkout No-NSFW
 
     - name: Commit changes
       run: |
