@@ -25,6 +25,9 @@ jobs:
     - name: Create and checkout No-NSFW branch
       run: git checkout -b No-NSFW
 
+    - name: Pull latest changes from remote No-NSFW branch
+      run: git pull origin No-NSFW
+
     - name: Commit changes
       run: |
         git config --global user.name 'TheLordofD'
