@@ -1,3 +1,4 @@
+<!-- Issues are disabled, so I had to do this. You don't have to merge it. Sorry! -->
 This repo removes all the NSFW Extensions. All the extensions are compiled and forked from [Keiyoushi](https://keiyoushi.github.io)
 
 To add this to Tachiyomi or other supported platforms:
