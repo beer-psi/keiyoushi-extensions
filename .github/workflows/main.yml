@@ -22,6 +22,9 @@ jobs:
     - name: Generate index.min.json
       run: jq -c 'map(select(.nsfw != 1))' index.min.json > index.min.json
 
+    - name: Create and checkout No-NSFW branch
+      run: git checkout -b No-NSFW
+
     - name: Commit changes
       run: |
         git config --global user.name 'TheLordofD'
