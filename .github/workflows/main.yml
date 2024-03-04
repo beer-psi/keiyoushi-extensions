@@ -30,4 +30,4 @@ jobs:
         git checkout -b No-NSFW
         git add .
         git commit -m "Modify file via GitHub Action"
-        git push --force origin No-NSFW
+        git push origin No-NSFW
