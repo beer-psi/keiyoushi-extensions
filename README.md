@@ -1,3 +1,13 @@
+This repo removes all the NSFW Extensions. All the extensions are compiled and forked from [Keiyoushi](https://keiyoushi.github.io)
+
+To add this to Tachiyomi or other supported platforms:
+
+Add this link: [https://raw.githubusercontent.com/TheLordofD/extensions/No-NSFW/index.min.json]
+
+Settings > Browse > Manga Repo > Add button (bottom right)
+
+---
+
 ### Please give the repo a :star:
 
 | Build | Support Server |
