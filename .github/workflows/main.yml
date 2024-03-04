@@ -29,5 +29,5 @@ jobs:
         git config --global user.email '161926281+TheLordofD@users.noreply.github.com'
         git checkout -b No-NSFW
         git add .
-        git commit -m "Modify file via GitHub Action"
-        git push origin No-NSFW
+        git commit -m "Remove da' NSFW"
+        git push --force origin No-NSFW
